@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #232323;
+    border: none;
+}
+
+.navbar-inner {
+    padding: 10px 20px;
+}
+
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sidebar-toggle-box {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon-reorder {
+    background-color: #ff5d5d;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+#top_menu {
+    display: inline-block;
+}
+
+.nav.top-menu > li.dropdown {
+    position: relative;
+}
+
+.nav.top-menu > li.dropdown a {
+    color: #dfdfdf;
+    padding: 8px 15px;
+}
+
+.nav.top-menu > li.dropdown .badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.dropdown-menu {
+    background-color: #868686;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-top: 10px;
+}
+
+.top-nav {
+    float: right;
+}
+
+.top-nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.top-nav ul li a {
+    color: #fff;
+    padding: 10px 15px;
+    display: block;
+}
+
+.top-nav ul li .username {
+    margin-left: 10px;
+}
+
+.top-nav ul li img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.dropdown-menu.extended {
+    width: 250px;
+}
+
+.dropdown-menu.extended li a {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu.extended li a .photo img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.dropdown-menu.extended li a .label {
+    margin-right: 10px;
+}
+
+.caret {
+    border-top: 5px solid #fff;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    display: inline-block;
+    vertical-align: middle;
+}
+
